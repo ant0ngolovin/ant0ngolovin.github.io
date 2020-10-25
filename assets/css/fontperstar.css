@@ -1,17 +1,12 @@
 @font-face {
-  font-family: 'perstar';
-  src:  url('../fonts/perstar-9zevo5.eot');
-  src:  url('../fonts/perstar-9zevo5.eot') format('embedded-opentype'),
-    url('../fonts/perstar-9zevo5.ttf') format('truetype'),
-    url('../fonts/perstar-9zevo5.woff') format('woff'),
-    url('../fonts/perstar-9zevo5.svg') format('svg');
+  font-family: 'fontawesome';
   font-weight: normal;
   font-style: normal;
 }
 
 .ps {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'perstar' !important;
+  font-family: 'fontawesome' !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -28,19 +23,19 @@
   content: "\e900";
 }
 .ps-bookmark:before {
-  content: "\e901";
+  content: "\f577";
 }
 .ps-compass:before {
   content: "\e902";
 }
 .ps-diamond:before {
-  content: "\e903";
+  content: "\f3a5";
 }
 .ps-download:before {
   content: "\e904";
 }
 .ps-facebook:before {
-  content: "\e905";
+  content: "\f39e";
 }
 .ps-fingerprint:before {
   content: "\e906";
@@ -48,11 +43,11 @@
 .ps-flag:before {
   content: "\e907";
 }
-.ps-googleplus:before {
-  content: "\e908";
+.tg:before {
+  content: "\f3fe";
 }
 .ps-home:before {
-  content: "\e909";
+  content: "\f031";
 }
 .ps-id-card:before {
   content: "\e90a";
@@ -73,16 +68,16 @@
   content: "\e90f";
 }
 .ps-notification:before {
-  content: "\e910";
+  content: "\f1fa";
 }
 .ps-right-arrow:before {
   content: "\e911";
 }
 .ps-star:before {
-  content: "\e912";
+  content: "\f05a";
 }
-.ps-twitter:before {
-  content: "\e913";
+.vk:before {
+  content: "\f189";
 }
 .ps-umbrella:before {
   content: "\e914";
