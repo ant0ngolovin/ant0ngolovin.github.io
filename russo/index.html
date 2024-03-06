@@ -37,13 +37,13 @@
 
 		<nav id="my-nav" class="navbar-collapse collapse" role="navigation">
 			<ul class="nav navbar-nav">
-				<li class="active"><a href="index.html#welcome">Главная</a></li>
-				<li><a href="index.html#portfolio">Портфолио</a></li>
-				<li><a href="index.html#testimonials">Отзывы</a></li>
-				<li><a href="index.html#team">Команда</a></li>
-				<li><a href="index.html#services">Услуги</a></li>
-				<li><a href="index.html#blog">Блог</a></li>
-				<li><a href="index.html#contact">Контакты</a></li>
+				<li class="active"><a href="index.html#welcome">Home</a></li>
+				<li><a href="index.html#portfolio">Portfolio</a></li>
+				<li><a href="index.html#testimonials">Testimonials</a></li>
+				<li><a href="index.html#team">Team</a></li>
+				<li><a href="index.html#services">Services</a></li>
+				<li><a href="index.html#blog">Blog</a></li>
+				<li><a href="index.html#contact">Contact</a></li>
 			</ul>
 		</nav><!--/.navbar-collapse -->
 
@@ -58,7 +58,7 @@
 	<div class="container">
 		<div class="content-wrapper">
 			<div class="welcome-content">
-				<h1 class="special-heading light-special">Мы russodesign</h1>
+				<h1 class="special-heading light-special">We are Crafto</h1>
 				<p>
 					<span>Our daily purpose is to build your web experience by</span>
 					<span class="rotating-words">creating your image, building your presence, boosting your income</span>
@@ -277,77 +277,6 @@
 			</div>
 		</div>
 	</div>
-	<div class="container">
-
-		<div class="row">
-			<div class="col-md-4">
-				<div class="team-member">
-					<div class="profile-picture">
-						<figure><img src="assets/team4.jpg" alt=""></figure>
-						<div class="profile-overlay"></div>
-						<div class="profile-social">
-							<div class="icons-wrapper">
-								<a href="index.html#"><i class="fa fa-facebook"></i></a>
-								<a href="index.html#"><i class="fa fa-twitter"></i></a>
-								<a href="index.html#"><i class="fa fa-linkedin"></i></a>
-								<a href="index.html#"><i class="fa fa-pinterest"></i></a>
-								<a href="index.html#"><i class="fa fa-google-plus"></i></a>
-							</div>
-						</div>
-					</div>
-					<h3><a href="index.html#">Jonathan Doe</a></h3>
-					<span>Creative Director</span>
-					<div class="team-bio">
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, fugiat, harum, adipisci accusantium minus quasi asperiores enim voluptas quisquam voluptatem.</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-4">
-				<div class="team-member">
-					<div class="profile-picture">
-						<figure><img src="assets/team5.jpg" alt=""></figure>
-						<div class="profile-overlay"></div>
-						<div class="profile-social">
-							<div class="icons-wrapper">
-								<a href="index.html#"><i class="fa fa-facebook"></i></a>
-								<a href="index.html#"><i class="fa fa-twitter"></i></a>
-								<a href="index.html#"><i class="fa fa-linkedin"></i></a>
-								<a href="index.html#"><i class="fa fa-pinterest"></i></a>
-								<a href="index.html#"><i class="fa fa-google-plus"></i></a>
-							</div>
-						</div>
-					</div>
-					<h3><a href="index.html#">Jennifer Smith</a></h3>
-					<span>Graphic designer</span>
-					<div class="team-bio">
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, fugiat, harum, adipisci accusantium minus quasi asperiores enim voluptas quisquam.</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-4">
-				<div class="team-member">
-					<div class="profile-picture">
-						<figure><img src="assets/team6.jpg" alt=""></figure>
-						<div class="profile-overlay"></div>
-						<div class="profile-social">
-							<div class="icons-wrapper">
-								<a href="index.html#"><i class="fa fa-facebook"></i></a>
-								<a href="index.html#"><i class="fa fa-twitter"></i></a>
-								<a href="index.html#"><i class="fa fa-linkedin"></i></a>
-								<a href="index.html#"><i class="fa fa-pinterest"></i></a>
-								<a href="index.html#"><i class="fa fa-google-plus"></i></a>
-							</div>
-						</div>
-					</div>
-					<h3><a href="index.html#">Silviu Stefu</a></h3>
-					<span>Marketing director</span>
-					<div class="team-bio">
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, fugiat, harum, adipisci accusantium minus quasi asperiores enim voluptas quisquam voluptatem quis.</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
 </section>
 <!-- End of Team Section -->
 
@@ -495,6 +424,29 @@
 
 				<div id="result"></div>
 
+				<form id="contact_form" class="contact-form" action="http://www.picseel.com/themes/crafto/contact.php" method="post">
+					<div class="row">
+						<div class="col-md-6">
+							<div class="form-group">
+								<input type="text" class="form-control input-lg" id="nameinput" placeholder="Name" name="name">
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="form-group">
+								<input type="email" class="form-control input-lg" id="emailinput" placeholder="Email" name="email">
+							</div>
+						</div>
+					</div>
+					<div class="form-group">
+						<textarea class="form-control" rows="10" name="message" placeholder="Message"></textarea>
+					</div>
+					<div class="form-group">
+						<input type="text" class="form-control input-lg" id="humaninput" placeholder="5 + 2 =" name="human">
+					</div>
+					<div class="form-group">
+						<button id="submit_btn" type="submit" class="btn btn-outline-white btn-big">Submit</button>
+					</div>
+				</form>
 			</div>
 		</div>
 	</div>
